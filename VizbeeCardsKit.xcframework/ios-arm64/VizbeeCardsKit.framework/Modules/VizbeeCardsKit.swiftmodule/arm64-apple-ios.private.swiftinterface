@@ -1,0 +1,185 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VizbeeCardsKit
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
+import Foundation
+import Swift
+import UIKit
+@_exported import VizbeeCardsKit
+import VizbeeKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(VizbeeCards) final public class VizbeeCards : ObjectiveC.NSObject {
+  @objc public static func setup()
+  public static func register<ViewModel>(card: VizbeeCardsKit.VZBCardID<ViewModel>, provider: @escaping () -> VizbeeCardsKit.VZBCard<ViewModel>) where ViewModel : VizbeeKit.VZBCardViewModel
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class VZBActionButton : UIKit.UIButton {
+  public enum ActionType {
+    case primary
+    case secondary
+    case cancel
+    case disconnect
+    case refresh
+    case retry
+    case custom
+    public static func == (a: VizbeeCardsKit.VZBActionButton.ActionType, b: VizbeeCardsKit.VZBActionButton.ActionType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency final public var onTap: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(type: VizbeeCardsKit.VZBActionButton.ActionType = .primary)
+  @_Concurrency.MainActor @preconcurrency final public func setTitle(_ title: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToWindow()
+  @objc deinit
+}
+extension VizbeeCardsKit.VZBActionButton : VizbeeKit.VZBStyleableComponent {
+  @_Concurrency.MainActor @preconcurrency @objc final public var vzbStyleID: Swift.String {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc final public var vzbStyleClasses: [Swift.String] {
+    @objc get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class VZBCloseButton : UIKit.UIButton {
+  public enum CloseButtonType {
+    case plain
+    case custom
+    public static func == (a: VizbeeCardsKit.VZBCloseButton.CloseButtonType, b: VizbeeCardsKit.VZBCloseButton.CloseButtonType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency public init(type: VizbeeCardsKit.VZBCloseButton.CloseButtonType = .plain)
+  @_Concurrency.MainActor @preconcurrency @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToWindow()
+  @objc deinit
+}
+extension VizbeeCardsKit.VZBCloseButton : VizbeeKit.VZBStyleableComponent {
+  @_Concurrency.MainActor @preconcurrency @objc final public var vzbStyleID: Swift.String {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc final public var vzbStyleClasses: [Swift.String] {
+    @objc get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class VZBDeviceInfoView : UIKit.UIView {
+  public enum DeviceInfoViewType {
+    case plain
+    case custom
+    public static func == (a: VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType, b: VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency final public let icon: VizbeeCardsKit.VZBImageView
+  @_Concurrency.MainActor @preconcurrency final public let nameLabel: VizbeeCardsKit.VZBLabel
+  @_Concurrency.MainActor @preconcurrency final public var spacing: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public init(type: VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType = .plain)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToWindow()
+  @objc deinit
+}
+extension VizbeeCardsKit.VZBDeviceInfoView : VizbeeKit.VZBStyleableComponent {
+  @_Concurrency.MainActor @preconcurrency @objc final public var vzbStyleID: Swift.String {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc final public var vzbStyleClasses: [Swift.String] {
+    @objc get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class VZBLabel : UIKit.UILabel {
+  public enum LabelType {
+    case title
+    case subtitle
+    case deviceName
+    case custom
+    public static func == (a: VizbeeCardsKit.VZBLabel.LabelType, b: VizbeeCardsKit.VZBLabel.LabelType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency public init(type: VizbeeCardsKit.VZBLabel.LabelType)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToWindow()
+  @objc deinit
+}
+extension VizbeeCardsKit.VZBLabel : VizbeeKit.VZBStyleableComponent {
+  @_Concurrency.MainActor @preconcurrency @objc final public var vzbStyleID: Swift.String {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc final public var vzbStyleClasses: [Swift.String] {
+    @objc get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class VZBImageView : UIKit.UIImageView {
+  public enum ImageViewType {
+    case plain
+    case custom
+    public static func == (a: VizbeeCardsKit.VZBImageView.ImageViewType, b: VizbeeCardsKit.VZBImageView.ImageViewType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency public init(type: VizbeeCardsKit.VZBImageView.ImageViewType = .plain)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToWindow()
+  @objc deinit
+}
+extension VizbeeCardsKit.VZBImageView : VizbeeKit.VZBStyleableComponent {
+  @_Concurrency.MainActor @preconcurrency @objc final public var vzbStyleID: Swift.String {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc final public var vzbStyleClasses: [Swift.String] {
+    @objc get
+  }
+}
+@_inheritsConvenienceInitializers open class VZBCard<ViewModel> : ObjectiveC.NSObject, VizbeeKit.VZBUICard where ViewModel : VizbeeKit.VZBCardViewModel {
+  @objc open func view() -> UIKit.UIView
+  @objc final public func bind(with viewModel: VizbeeKit.VZBCardViewModel)
+  open func bind(with viewModel: ViewModel)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct VZBCardID<ViewModel> where ViewModel : VizbeeKit.VZBCardViewModel {
+  public let rawValue: VizbeeKit.VZBCardID
+}
+extension VizbeeCardsKit.VZBCardID where ViewModel == VizbeeKit.VZBDeviceStatusCardViewModel {
+  public static var deviceStatus: VizbeeCardsKit.VZBCardID<VizbeeKit.VZBDeviceStatusCardViewModel> {
+    get
+  }
+}
+extension VizbeeCardsKit.VZBCardID where ViewModel == VizbeeKit.VZBAppInstallCardViewModel {
+  public static var appInstall: VizbeeCardsKit.VZBCardID<VizbeeKit.VZBAppInstallCardViewModel> {
+    get
+  }
+}
+extension VizbeeCardsKit.VZBCardID where ViewModel == VizbeeKit.VZBManualAppInstallCardViewModel {
+  public static var manualAppInstall: VizbeeCardsKit.VZBCardID<VizbeeKit.VZBManualAppInstallCardViewModel> {
+    get
+  }
+}
+extension VizbeeCardsKit.VZBCardID where ViewModel == VizbeeKit.VZBPairingCardViewModel {
+  public static var pairing: VizbeeCardsKit.VZBCardID<VizbeeKit.VZBPairingCardViewModel> {
+    get
+  }
+}
+extension VizbeeCardsKit.VZBActionButton.ActionType : Swift.Equatable {}
+extension VizbeeCardsKit.VZBActionButton.ActionType : Swift.Hashable {}
+extension VizbeeCardsKit.VZBCloseButton.CloseButtonType : Swift.Equatable {}
+extension VizbeeCardsKit.VZBCloseButton.CloseButtonType : Swift.Hashable {}
+extension VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType : Swift.Equatable {}
+extension VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType : Swift.Hashable {}
+extension VizbeeCardsKit.VZBLabel.LabelType : Swift.Equatable {}
+extension VizbeeCardsKit.VZBLabel.LabelType : Swift.Hashable {}
+extension VizbeeCardsKit.VZBImageView.ImageViewType : Swift.Equatable {}
+extension VizbeeCardsKit.VZBImageView.ImageViewType : Swift.Hashable {}

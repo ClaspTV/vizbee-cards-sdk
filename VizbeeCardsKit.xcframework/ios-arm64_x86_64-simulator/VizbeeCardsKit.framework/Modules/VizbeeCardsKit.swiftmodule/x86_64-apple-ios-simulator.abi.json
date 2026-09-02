@@ -1,0 +1,4475 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "VizbeeCardsKit",
+    "printedName": "VizbeeCardsKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VizbeeKit",
+        "printedName": "VizbeeKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VizbeeCards",
+        "printedName": "VizbeeCards",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VizbeeCards(cm)setup",
+            "mangledName": "$s14VizbeeCardsKit0aB0C5setupyyFZ",
+            "moduleName": "VizbeeCardsKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(card:provider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VZBCardID",
+                "printedName": "VizbeeCardsKit.VZBCardID<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14VizbeeCardsKit9VZBCardIDV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> VizbeeCardsKit.VZBCard<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBCard",
+                    "printedName": "VizbeeCardsKit.VZBCard<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:14VizbeeCardsKit7VZBCardC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14VizbeeCardsKit0aB0C8register4card8provideryAA9VZBCardIDVyxG_AA0G0CyxGyctSo0G9ViewModelCRbzlFZ",
+            "mangledName": "$s14VizbeeCardsKit0aB0C8register4card8provideryAA9VZBCardIDVyxG_AA0G0CyxGyctSo0G9ViewModelCRbzlFZ",
+            "moduleName": "VizbeeCardsKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VizbeeKit.VZBCardViewModel>",
+            "sugared_genericSig": "<ViewModel where ViewModel : VizbeeKit.VZBCardViewModel>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VizbeeCardsKit@objc(cs)VizbeeCards",
+        "mangledName": "$s14VizbeeCardsKit0aB0C",
+        "moduleName": "VizbeeCardsKit",
+        "objc_name": "VizbeeCards",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VizbeeKit",
+        "printedName": "VizbeeKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBActionButton",
+        "printedName": "VZBActionButton",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ActionType",
+            "printedName": "ActionType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "primary",
+                "printedName": "primary",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBActionButton.ActionType.Type) -> VizbeeCardsKit.VZBActionButton.ActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActionType",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                        "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                            "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO7primaryyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO7primaryyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "secondary",
+                "printedName": "secondary",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBActionButton.ActionType.Type) -> VizbeeCardsKit.VZBActionButton.ActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActionType",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                        "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                            "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO9secondaryyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO9secondaryyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "cancel",
+                "printedName": "cancel",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBActionButton.ActionType.Type) -> VizbeeCardsKit.VZBActionButton.ActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActionType",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                        "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                            "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO6cancelyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO6cancelyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "disconnect",
+                "printedName": "disconnect",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBActionButton.ActionType.Type) -> VizbeeCardsKit.VZBActionButton.ActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActionType",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                        "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                            "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO10disconnectyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO10disconnectyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "refresh",
+                "printedName": "refresh",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBActionButton.ActionType.Type) -> VizbeeCardsKit.VZBActionButton.ActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActionType",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                        "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                            "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO7refreshyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO7refreshyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "retry",
+                "printedName": "retry",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBActionButton.ActionType.Type) -> VizbeeCardsKit.VZBActionButton.ActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActionType",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                        "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                            "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO5retryyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO5retryyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "custom",
+                "printedName": "custom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBActionButton.ActionType.Type) -> VizbeeCardsKit.VZBActionButton.ActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActionType",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                        "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBActionButton.ActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                            "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO6customyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO6customyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActionType",
+                    "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                    "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActionType",
+                    "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                    "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "VizbeeCardsKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO9hashValueSivp",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO9hashValueSivp",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO9hashValueSivg",
+                    "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO9hashValueSivg",
+                    "moduleName": "VizbeeCardsKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO",
+            "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10ActionTypeO",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onTap",
+            "printedName": "onTap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VizbeeCardsKit15VZBActionButtonC5onTapyycSgvp",
+            "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC5onTapyycSgvp",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC5onTapyycSgvg",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC5onTapyycSgvg",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC5onTapyycSgvs",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC5onTapyycSgvs",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC5onTapyycSgvM",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC5onTapyycSgvM",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBActionButton",
+                "printedName": "VizbeeCardsKit.VZBActionButton",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBActionButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ActionType",
+                "printedName": "VizbeeCardsKit.VZBActionButton.ActionType",
+                "hasDefaultArg": true,
+                "usr": "s:14VizbeeCardsKit15VZBActionButtonC10ActionTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14VizbeeCardsKit15VZBActionButtonC4typeA2C10ActionTypeO_tcfc",
+            "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC4typeA2C10ActionTypeO_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setTitle",
+            "printedName": "setTitle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14VizbeeCardsKit15VZBActionButtonC8setTitleyySSSgF",
+            "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC8setTitleyySSSgF",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToWindow",
+            "printedName": "didMoveToWindow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBActionButton(im)didMoveToWindow",
+            "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC15didMoveToWindowyyF",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "objc_name": "didMoveToWindow",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBActionButton",
+                "printedName": "VizbeeCardsKit.VZBActionButton",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBActionButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBActionButton(im)initWithFrame:",
+            "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC5frameACSo6CGRectV_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "vzbStyleID",
+            "printedName": "vzbStyleID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBActionButton(py)vzbStyleID",
+            "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10vzbStyleIDSSvp",
+            "moduleName": "VizbeeCardsKit",
+            "objc_name": "vzbStyleID",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBActionButton(im)vzbStyleID",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC10vzbStyleIDSSvg",
+                "moduleName": "VizbeeCardsKit",
+                "objc_name": "vzbStyleID",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vzbStyleClasses",
+            "printedName": "vzbStyleClasses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBActionButton(py)vzbStyleClasses",
+            "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC15vzbStyleClassesSaySSGvp",
+            "moduleName": "VizbeeCardsKit",
+            "objc_name": "vzbStyleClasses",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBActionButton(im)vzbStyleClasses",
+                "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC15vzbStyleClassesSaySSGvg",
+                "moduleName": "VizbeeCardsKit",
+                "objc_name": "vzbStyleClasses",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBActionButton",
+        "mangledName": "$s14VizbeeCardsKit15VZBActionButtonC",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIButton",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIButton",
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VizbeeKit",
+        "printedName": "VizbeeKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBCloseButton",
+        "printedName": "VZBCloseButton",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "CloseButtonType",
+            "printedName": "CloseButtonType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "plain",
+                "printedName": "plain",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBCloseButton.CloseButtonType.Type) -> VizbeeCardsKit.VZBCloseButton.CloseButtonType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CloseButtonType",
+                        "printedName": "VizbeeCardsKit.VZBCloseButton.CloseButtonType",
+                        "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBCloseButton.CloseButtonType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CloseButtonType",
+                            "printedName": "VizbeeCardsKit.VZBCloseButton.CloseButtonType",
+                            "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO5plainyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO5plainyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "custom",
+                "printedName": "custom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBCloseButton.CloseButtonType.Type) -> VizbeeCardsKit.VZBCloseButton.CloseButtonType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CloseButtonType",
+                        "printedName": "VizbeeCardsKit.VZBCloseButton.CloseButtonType",
+                        "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBCloseButton.CloseButtonType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CloseButtonType",
+                            "printedName": "VizbeeCardsKit.VZBCloseButton.CloseButtonType",
+                            "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO6customyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO6customyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CloseButtonType",
+                    "printedName": "VizbeeCardsKit.VZBCloseButton.CloseButtonType",
+                    "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CloseButtonType",
+                    "printedName": "VizbeeCardsKit.VZBCloseButton.CloseButtonType",
+                    "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "VizbeeCardsKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO9hashValueSivp",
+                "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO9hashValueSivp",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO9hashValueSivg",
+                    "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO9hashValueSivg",
+                    "moduleName": "VizbeeCardsKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO",
+            "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBCloseButton",
+                "printedName": "VizbeeCardsKit.VZBCloseButton",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBCloseButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CloseButtonType",
+                "printedName": "VizbeeCardsKit.VZBCloseButton.CloseButtonType",
+                "hasDefaultArg": true,
+                "usr": "s:14VizbeeCardsKit14VZBCloseButtonC05CloseE4TypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14VizbeeCardsKit14VZBCloseButtonC4typeA2C05CloseE4TypeO_tcfc",
+            "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC4typeA2C05CloseE4TypeO_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "intrinsicContentSize",
+            "printedName": "intrinsicContentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBCloseButton(py)intrinsicContentSize",
+            "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC20intrinsicContentSizeSo6CGSizeVvp",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "objc_name": "intrinsicContentSize",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBCloseButton(im)intrinsicContentSize",
+                "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC20intrinsicContentSizeSo6CGSizeVvg",
+                "moduleName": "VizbeeCardsKit",
+                "overriding": true,
+                "objc_name": "intrinsicContentSize",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToWindow",
+            "printedName": "didMoveToWindow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBCloseButton(im)didMoveToWindow",
+            "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC15didMoveToWindowyyF",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "objc_name": "didMoveToWindow",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBCloseButton",
+                "printedName": "VizbeeCardsKit.VZBCloseButton",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBCloseButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBCloseButton(im)initWithFrame:",
+            "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC5frameACSo6CGRectV_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "vzbStyleID",
+            "printedName": "vzbStyleID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBCloseButton(py)vzbStyleID",
+            "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC10vzbStyleIDSSvp",
+            "moduleName": "VizbeeCardsKit",
+            "objc_name": "vzbStyleID",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBCloseButton(im)vzbStyleID",
+                "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC10vzbStyleIDSSvg",
+                "moduleName": "VizbeeCardsKit",
+                "objc_name": "vzbStyleID",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vzbStyleClasses",
+            "printedName": "vzbStyleClasses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBCloseButton(py)vzbStyleClasses",
+            "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC15vzbStyleClassesSaySSGvp",
+            "moduleName": "VizbeeCardsKit",
+            "objc_name": "vzbStyleClasses",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBCloseButton(im)vzbStyleClasses",
+                "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC15vzbStyleClassesSaySSGvg",
+                "moduleName": "VizbeeCardsKit",
+                "objc_name": "vzbStyleClasses",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBCloseButton",
+        "mangledName": "$s14VizbeeCardsKit14VZBCloseButtonC",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIButton",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIButton",
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VizbeeKit",
+        "printedName": "VizbeeKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBDeviceInfoView",
+        "printedName": "VZBDeviceInfoView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "DeviceInfoViewType",
+            "printedName": "DeviceInfoViewType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "plain",
+                "printedName": "plain",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType.Type) -> VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceInfoViewType",
+                        "printedName": "VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType",
+                        "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DeviceInfoViewType",
+                            "printedName": "VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType",
+                            "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO5plainyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO5plainyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "custom",
+                "printedName": "custom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType.Type) -> VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceInfoViewType",
+                        "printedName": "VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType",
+                        "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DeviceInfoViewType",
+                            "printedName": "VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType",
+                            "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO6customyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO6customyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceInfoViewType",
+                    "printedName": "VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType",
+                    "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceInfoViewType",
+                    "printedName": "VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType",
+                    "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "VizbeeCardsKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO9hashValueSivp",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO9hashValueSivp",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO9hashValueSivg",
+                    "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO9hashValueSivg",
+                    "moduleName": "VizbeeCardsKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO",
+            "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBImageView",
+                "printedName": "VizbeeCardsKit.VZBImageView",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC4iconAA08VZBImageF0Cvp",
+            "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC4iconAA08VZBImageF0Cvp",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBImageView",
+                    "printedName": "VizbeeCardsKit.VZBImageView",
+                    "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC4iconAA08VZBImageF0Cvg",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC4iconAA08VZBImageF0Cvg",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameLabel",
+            "printedName": "nameLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBLabel",
+                "printedName": "VizbeeCardsKit.VZBLabel",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBLabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC9nameLabelAA8VZBLabelCvp",
+            "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC9nameLabelAA8VZBLabelCvp",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBLabel",
+                    "printedName": "VizbeeCardsKit.VZBLabel",
+                    "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBLabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC9nameLabelAA8VZBLabelCvg",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC9nameLabelAA8VZBLabelCvg",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "spacing",
+            "printedName": "spacing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC7spacing14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC7spacing12CoreGraphics7CGFloatVvp",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC7spacing14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC7spacing12CoreGraphics7CGFloatVvg",
+                "moduleName": "VizbeeCardsKit",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC7spacing14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC7spacing12CoreGraphics7CGFloatVvs",
+                "moduleName": "VizbeeCardsKit",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC7spacing14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC7spacing12CoreGraphics7CGFloatVvM",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBDeviceInfoView",
+                "printedName": "VizbeeCardsKit.VZBDeviceInfoView",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBDeviceInfoView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfoViewType",
+                "printedName": "VizbeeCardsKit.VZBDeviceInfoView.DeviceInfoViewType",
+                "hasDefaultArg": true,
+                "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC06DeviceeF4TypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14VizbeeCardsKit17VZBDeviceInfoViewC4typeA2C06DeviceeF4TypeO_tcfc",
+            "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC4typeA2C06DeviceeF4TypeO_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToWindow",
+            "printedName": "didMoveToWindow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBDeviceInfoView(im)didMoveToWindow",
+            "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC15didMoveToWindowyyF",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "objc_name": "didMoveToWindow",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBDeviceInfoView",
+                "printedName": "VizbeeCardsKit.VZBDeviceInfoView",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBDeviceInfoView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBDeviceInfoView(im)initWithFrame:",
+            "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "vzbStyleID",
+            "printedName": "vzbStyleID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBDeviceInfoView(py)vzbStyleID",
+            "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC10vzbStyleIDSSvp",
+            "moduleName": "VizbeeCardsKit",
+            "objc_name": "vzbStyleID",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBDeviceInfoView(im)vzbStyleID",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC10vzbStyleIDSSvg",
+                "moduleName": "VizbeeCardsKit",
+                "objc_name": "vzbStyleID",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vzbStyleClasses",
+            "printedName": "vzbStyleClasses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBDeviceInfoView(py)vzbStyleClasses",
+            "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC15vzbStyleClassesSaySSGvp",
+            "moduleName": "VizbeeCardsKit",
+            "objc_name": "vzbStyleClasses",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBDeviceInfoView(im)vzbStyleClasses",
+                "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC15vzbStyleClassesSaySSGvg",
+                "moduleName": "VizbeeCardsKit",
+                "objc_name": "vzbStyleClasses",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBDeviceInfoView",
+        "mangledName": "$s14VizbeeCardsKit17VZBDeviceInfoViewC",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VizbeeKit",
+        "printedName": "VizbeeKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBLabel",
+        "printedName": "VZBLabel",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "LabelType",
+            "printedName": "LabelType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "title",
+                "printedName": "title",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBLabel.LabelType.Type) -> VizbeeCardsKit.VZBLabel.LabelType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LabelType",
+                        "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                        "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBLabel.LabelType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LabelType",
+                            "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                            "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO5titleyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit8VZBLabelC9LabelTypeO5titleyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "subtitle",
+                "printedName": "subtitle",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBLabel.LabelType.Type) -> VizbeeCardsKit.VZBLabel.LabelType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LabelType",
+                        "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                        "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBLabel.LabelType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LabelType",
+                            "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                            "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO8subtitleyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit8VZBLabelC9LabelTypeO8subtitleyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "deviceName",
+                "printedName": "deviceName",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBLabel.LabelType.Type) -> VizbeeCardsKit.VZBLabel.LabelType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LabelType",
+                        "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                        "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBLabel.LabelType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LabelType",
+                            "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                            "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO10deviceNameyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit8VZBLabelC9LabelTypeO10deviceNameyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "custom",
+                "printedName": "custom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBLabel.LabelType.Type) -> VizbeeCardsKit.VZBLabel.LabelType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LabelType",
+                        "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                        "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBLabel.LabelType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LabelType",
+                            "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                            "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO6customyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit8VZBLabelC9LabelTypeO6customyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LabelType",
+                    "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                    "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LabelType",
+                    "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                    "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14VizbeeCardsKit8VZBLabelC9LabelTypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "VizbeeCardsKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO9hashValueSivp",
+                "mangledName": "$s14VizbeeCardsKit8VZBLabelC9LabelTypeO9hashValueSivp",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO9hashValueSivg",
+                    "mangledName": "$s14VizbeeCardsKit8VZBLabelC9LabelTypeO9hashValueSivg",
+                    "moduleName": "VizbeeCardsKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s14VizbeeCardsKit8VZBLabelC9LabelTypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO",
+            "mangledName": "$s14VizbeeCardsKit8VZBLabelC9LabelTypeO",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBLabel",
+                "printedName": "VizbeeCardsKit.VZBLabel",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBLabel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LabelType",
+                "printedName": "VizbeeCardsKit.VZBLabel.LabelType",
+                "usr": "s:14VizbeeCardsKit8VZBLabelC9LabelTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14VizbeeCardsKit8VZBLabelC4typeA2C9LabelTypeO_tcfc",
+            "mangledName": "$s14VizbeeCardsKit8VZBLabelC4typeA2C9LabelTypeO_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToWindow",
+            "printedName": "didMoveToWindow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBLabel(im)didMoveToWindow",
+            "mangledName": "$s14VizbeeCardsKit8VZBLabelC15didMoveToWindowyyF",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "objc_name": "didMoveToWindow",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBLabel",
+                "printedName": "VizbeeCardsKit.VZBLabel",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBLabel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBLabel(im)initWithFrame:",
+            "mangledName": "$s14VizbeeCardsKit8VZBLabelC5frameACSo6CGRectV_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "vzbStyleID",
+            "printedName": "vzbStyleID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBLabel(py)vzbStyleID",
+            "mangledName": "$s14VizbeeCardsKit8VZBLabelC10vzbStyleIDSSvp",
+            "moduleName": "VizbeeCardsKit",
+            "objc_name": "vzbStyleID",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBLabel(im)vzbStyleID",
+                "mangledName": "$s14VizbeeCardsKit8VZBLabelC10vzbStyleIDSSvg",
+                "moduleName": "VizbeeCardsKit",
+                "objc_name": "vzbStyleID",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vzbStyleClasses",
+            "printedName": "vzbStyleClasses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBLabel(py)vzbStyleClasses",
+            "mangledName": "$s14VizbeeCardsKit8VZBLabelC15vzbStyleClassesSaySSGvp",
+            "moduleName": "VizbeeCardsKit",
+            "objc_name": "vzbStyleClasses",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBLabel(im)vzbStyleClasses",
+                "mangledName": "$s14VizbeeCardsKit8VZBLabelC15vzbStyleClassesSaySSGvg",
+                "moduleName": "VizbeeCardsKit",
+                "objc_name": "vzbStyleClasses",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBLabel",
+        "mangledName": "$s14VizbeeCardsKit8VZBLabelC",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UILabel",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UILabel",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VizbeeKit",
+        "printedName": "VizbeeKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBImageView",
+        "printedName": "VZBImageView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ImageViewType",
+            "printedName": "ImageViewType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "plain",
+                "printedName": "plain",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBImageView.ImageViewType.Type) -> VizbeeCardsKit.VZBImageView.ImageViewType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageViewType",
+                        "printedName": "VizbeeCardsKit.VZBImageView.ImageViewType",
+                        "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBImageView.ImageViewType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ImageViewType",
+                            "printedName": "VizbeeCardsKit.VZBImageView.ImageViewType",
+                            "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO5plainyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO5plainyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Var",
+                "name": "custom",
+                "printedName": "custom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VizbeeCardsKit.VZBImageView.ImageViewType.Type) -> VizbeeCardsKit.VZBImageView.ImageViewType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageViewType",
+                        "printedName": "VizbeeCardsKit.VZBImageView.ImageViewType",
+                        "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VizbeeCardsKit.VZBImageView.ImageViewType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ImageViewType",
+                            "printedName": "VizbeeCardsKit.VZBImageView.ImageViewType",
+                            "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO6customyA2EmF",
+                "mangledName": "$s14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO6customyA2EmF",
+                "moduleName": "VizbeeCardsKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageViewType",
+                    "printedName": "VizbeeCardsKit.VZBImageView.ImageViewType",
+                    "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageViewType",
+                    "printedName": "VizbeeCardsKit.VZBImageView.ImageViewType",
+                    "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "VizbeeCardsKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO9hashValueSivp",
+                "mangledName": "$s14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO9hashValueSivp",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO9hashValueSivg",
+                    "mangledName": "$s14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO9hashValueSivg",
+                    "moduleName": "VizbeeCardsKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "VizbeeCardsKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO",
+            "mangledName": "$s14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBImageView",
+                "printedName": "VizbeeCardsKit.VZBImageView",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageViewType",
+                "printedName": "VizbeeCardsKit.VZBImageView.ImageViewType",
+                "hasDefaultArg": true,
+                "usr": "s:14VizbeeCardsKit12VZBImageViewC05ImageE4TypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14VizbeeCardsKit12VZBImageViewC4typeA2C05ImageE4TypeO_tcfc",
+            "mangledName": "$s14VizbeeCardsKit12VZBImageViewC4typeA2C05ImageE4TypeO_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToWindow",
+            "printedName": "didMoveToWindow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView(im)didMoveToWindow",
+            "mangledName": "$s14VizbeeCardsKit12VZBImageViewC15didMoveToWindowyyF",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "objc_name": "didMoveToWindow",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBImageView",
+                "printedName": "VizbeeCardsKit.VZBImageView",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView(im)initWithImage:",
+            "mangledName": "$s14VizbeeCardsKit12VZBImageViewC5imageACSo7UIImageCSg_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithImage:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:highlightedImage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBImageView",
+                "printedName": "VizbeeCardsKit.VZBImageView",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView(im)initWithImage:highlightedImage:",
+            "mangledName": "$s14VizbeeCardsKit12VZBImageViewC5image16highlightedImageACSo7UIImageCSg_AHtcfc",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "3.0",
+            "objc_name": "initWithImage:highlightedImage:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBImageView",
+                "printedName": "VizbeeCardsKit.VZBImageView",
+                "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView(im)initWithFrame:",
+            "mangledName": "$s14VizbeeCardsKit12VZBImageViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "VizbeeCardsKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "vzbStyleID",
+            "printedName": "vzbStyleID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBImageView(py)vzbStyleID",
+            "mangledName": "$s14VizbeeCardsKit12VZBImageViewC10vzbStyleIDSSvp",
+            "moduleName": "VizbeeCardsKit",
+            "objc_name": "vzbStyleID",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBImageView(im)vzbStyleID",
+                "mangledName": "$s14VizbeeCardsKit12VZBImageViewC10vzbStyleIDSSvg",
+                "moduleName": "VizbeeCardsKit",
+                "objc_name": "vzbStyleID",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vzbStyleClasses",
+            "printedName": "vzbStyleClasses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBImageView(py)vzbStyleClasses",
+            "mangledName": "$s14VizbeeCardsKit12VZBImageViewC15vzbStyleClassesSaySSGvp",
+            "moduleName": "VizbeeCardsKit",
+            "objc_name": "vzbStyleClasses",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@VizbeeCardsKit@objc(cs)VZBImageView(im)vzbStyleClasses",
+                "mangledName": "$s14VizbeeCardsKit12VZBImageViewC15vzbStyleClassesSaySSGvg",
+                "moduleName": "VizbeeCardsKit",
+                "objc_name": "vzbStyleClasses",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VizbeeCardsKit@objc(cs)VZBImageView",
+        "mangledName": "$s14VizbeeCardsKit12VZBImageViewC",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIImageView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIImageView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VizbeeKit",
+        "printedName": "VizbeeKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBCard",
+        "printedName": "VZBCard",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "view",
+            "printedName": "view()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14VizbeeCardsKit7VZBCardC4viewSo6UIViewCyF",
+            "mangledName": "$s14VizbeeCardsKit7VZBCardC4viewSo6UIViewCyF",
+            "moduleName": "VizbeeCardsKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VizbeeKit.VZBCardViewModel>",
+            "sugared_genericSig": "<ViewModel where ViewModel : VizbeeKit.VZBCardViewModel>",
+            "isOpen": true,
+            "objc_name": "view",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bind",
+            "printedName": "bind(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VZBCardViewModel",
+                "printedName": "VizbeeKit.VZBCardViewModel",
+                "usr": "c:objc(cs)VZBCardViewModel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14VizbeeCardsKit7VZBCardC4bind4withySo0D9ViewModelC_tF",
+            "mangledName": "$s14VizbeeCardsKit7VZBCardC4bind4withySo0D9ViewModelC_tF",
+            "moduleName": "VizbeeCardsKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VizbeeKit.VZBCardViewModel>",
+            "sugared_genericSig": "<ViewModel where ViewModel : VizbeeKit.VZBCardViewModel>",
+            "objc_name": "bindViewModel:",
+            "declAttributes": [
+              "ObjC",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bind",
+            "printedName": "bind(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14VizbeeCardsKit7VZBCardC4bind4withyx_tF",
+            "mangledName": "$s14VizbeeCardsKit7VZBCardC4bind4withyx_tF",
+            "moduleName": "VizbeeCardsKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VizbeeKit.VZBCardViewModel>",
+            "sugared_genericSig": "<ViewModel where ViewModel : VizbeeKit.VZBCardViewModel>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBCard",
+                "printedName": "VizbeeCardsKit.VZBCard<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14VizbeeCardsKit7VZBCardC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14VizbeeCardsKit7VZBCardCACyxGycfc",
+            "mangledName": "$s14VizbeeCardsKit7VZBCardCACyxGycfc",
+            "moduleName": "VizbeeCardsKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VizbeeKit.VZBCardViewModel>",
+            "sugared_genericSig": "<ViewModel where ViewModel : VizbeeKit.VZBCardViewModel>",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14VizbeeCardsKit7VZBCardC",
+        "mangledName": "$s14VizbeeCardsKit7VZBCardC",
+        "moduleName": "VizbeeCardsKit",
+        "genericSig": "<τ_0_0 where τ_0_0 : VizbeeKit.VZBCardViewModel>",
+        "sugared_genericSig": "<ViewModel where ViewModel : VizbeeKit.VZBCardViewModel>",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VizbeeKit",
+        "printedName": "VizbeeKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VZBCardID",
+        "printedName": "VZBCardID",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBCardID",
+                "printedName": "VizbeeKit.VZBCardID",
+                "usr": "c:VZBCardIdentifiers.h@T@VZBCardID"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VizbeeCardsKit9VZBCardIDV8rawValueSoABavp",
+            "mangledName": "$s14VizbeeCardsKit9VZBCardIDV8rawValueSoABavp",
+            "moduleName": "VizbeeCardsKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBCardID",
+                    "printedName": "VizbeeKit.VZBCardID",
+                    "usr": "c:VZBCardIdentifiers.h@T@VZBCardID"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit9VZBCardIDV8rawValueSoABavg",
+                "mangledName": "$s14VizbeeCardsKit9VZBCardIDV8rawValueSoABavg",
+                "moduleName": "VizbeeCardsKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : VizbeeKit.VZBCardViewModel>",
+                "sugared_genericSig": "<ViewModel where ViewModel : VizbeeKit.VZBCardViewModel>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceStatus",
+            "printedName": "deviceStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBCardID",
+                "printedName": "VizbeeCardsKit.VZBCardID<VizbeeKit.VZBDeviceStatusCardViewModel>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBDeviceStatusCardViewModel",
+                    "printedName": "VizbeeKit.VZBDeviceStatusCardViewModel",
+                    "usr": "c:objc(cs)VZBDeviceStatusCardViewModel"
+                  }
+                ],
+                "usr": "s:14VizbeeCardsKit9VZBCardIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VizbeeCardsKit9VZBCardIDVAASo28VZBDeviceStatusCardViewModelCRszrlE06deviceG0ACyAEGvpZ",
+            "mangledName": "$s14VizbeeCardsKit9VZBCardIDVAASo28VZBDeviceStatusCardViewModelCRszrlE06deviceG0ACyAEGvpZ",
+            "moduleName": "VizbeeCardsKit",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBCardID",
+                    "printedName": "VizbeeCardsKit.VZBCardID<VizbeeKit.VZBDeviceStatusCardViewModel>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VZBDeviceStatusCardViewModel",
+                        "printedName": "VizbeeKit.VZBDeviceStatusCardViewModel",
+                        "usr": "c:objc(cs)VZBDeviceStatusCardViewModel"
+                      }
+                    ],
+                    "usr": "s:14VizbeeCardsKit9VZBCardIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit9VZBCardIDVAASo28VZBDeviceStatusCardViewModelCRszrlE06deviceG0ACyAEGvgZ",
+                "mangledName": "$s14VizbeeCardsKit9VZBCardIDVAASo28VZBDeviceStatusCardViewModelCRszrlE06deviceG0ACyAEGvgZ",
+                "moduleName": "VizbeeCardsKit",
+                "genericSig": "<τ_0_0 where τ_0_0 == VizbeeKit.VZBDeviceStatusCardViewModel>",
+                "sugared_genericSig": "<ViewModel where ViewModel == VizbeeKit.VZBDeviceStatusCardViewModel>",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appInstall",
+            "printedName": "appInstall",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBCardID",
+                "printedName": "VizbeeCardsKit.VZBCardID<VizbeeKit.VZBAppInstallCardViewModel>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBAppInstallCardViewModel",
+                    "printedName": "VizbeeKit.VZBAppInstallCardViewModel",
+                    "usr": "c:objc(cs)VZBAppInstallCardViewModel"
+                  }
+                ],
+                "usr": "s:14VizbeeCardsKit9VZBCardIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VizbeeCardsKit9VZBCardIDVAASo26VZBAppInstallCardViewModelCRszrlE03appG0ACyAEGvpZ",
+            "mangledName": "$s14VizbeeCardsKit9VZBCardIDVAASo26VZBAppInstallCardViewModelCRszrlE03appG0ACyAEGvpZ",
+            "moduleName": "VizbeeCardsKit",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBCardID",
+                    "printedName": "VizbeeCardsKit.VZBCardID<VizbeeKit.VZBAppInstallCardViewModel>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VZBAppInstallCardViewModel",
+                        "printedName": "VizbeeKit.VZBAppInstallCardViewModel",
+                        "usr": "c:objc(cs)VZBAppInstallCardViewModel"
+                      }
+                    ],
+                    "usr": "s:14VizbeeCardsKit9VZBCardIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit9VZBCardIDVAASo26VZBAppInstallCardViewModelCRszrlE03appG0ACyAEGvgZ",
+                "mangledName": "$s14VizbeeCardsKit9VZBCardIDVAASo26VZBAppInstallCardViewModelCRszrlE03appG0ACyAEGvgZ",
+                "moduleName": "VizbeeCardsKit",
+                "genericSig": "<τ_0_0 where τ_0_0 == VizbeeKit.VZBAppInstallCardViewModel>",
+                "sugared_genericSig": "<ViewModel where ViewModel == VizbeeKit.VZBAppInstallCardViewModel>",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "manualAppInstall",
+            "printedName": "manualAppInstall",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBCardID",
+                "printedName": "VizbeeCardsKit.VZBCardID<VizbeeKit.VZBManualAppInstallCardViewModel>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBManualAppInstallCardViewModel",
+                    "printedName": "VizbeeKit.VZBManualAppInstallCardViewModel",
+                    "usr": "c:objc(cs)VZBManualAppInstallCardViewModel"
+                  }
+                ],
+                "usr": "s:14VizbeeCardsKit9VZBCardIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VizbeeCardsKit9VZBCardIDVAASo32VZBManualAppInstallCardViewModelCRszrlE06manualgH0ACyAEGvpZ",
+            "mangledName": "$s14VizbeeCardsKit9VZBCardIDVAASo32VZBManualAppInstallCardViewModelCRszrlE06manualgH0ACyAEGvpZ",
+            "moduleName": "VizbeeCardsKit",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBCardID",
+                    "printedName": "VizbeeCardsKit.VZBCardID<VizbeeKit.VZBManualAppInstallCardViewModel>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VZBManualAppInstallCardViewModel",
+                        "printedName": "VizbeeKit.VZBManualAppInstallCardViewModel",
+                        "usr": "c:objc(cs)VZBManualAppInstallCardViewModel"
+                      }
+                    ],
+                    "usr": "s:14VizbeeCardsKit9VZBCardIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit9VZBCardIDVAASo32VZBManualAppInstallCardViewModelCRszrlE06manualgH0ACyAEGvgZ",
+                "mangledName": "$s14VizbeeCardsKit9VZBCardIDVAASo32VZBManualAppInstallCardViewModelCRszrlE06manualgH0ACyAEGvgZ",
+                "moduleName": "VizbeeCardsKit",
+                "genericSig": "<τ_0_0 where τ_0_0 == VizbeeKit.VZBManualAppInstallCardViewModel>",
+                "sugared_genericSig": "<ViewModel where ViewModel == VizbeeKit.VZBManualAppInstallCardViewModel>",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pairing",
+            "printedName": "pairing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VZBCardID",
+                "printedName": "VizbeeCardsKit.VZBCardID<VizbeeKit.VZBPairingCardViewModel>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBPairingCardViewModel",
+                    "printedName": "VizbeeKit.VZBPairingCardViewModel",
+                    "usr": "c:objc(cs)VZBPairingCardViewModel"
+                  }
+                ],
+                "usr": "s:14VizbeeCardsKit9VZBCardIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VizbeeCardsKit9VZBCardIDVAASo23VZBPairingCardViewModelCRszrlE7pairingACyAEGvpZ",
+            "mangledName": "$s14VizbeeCardsKit9VZBCardIDVAASo23VZBPairingCardViewModelCRszrlE7pairingACyAEGvpZ",
+            "moduleName": "VizbeeCardsKit",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VZBCardID",
+                    "printedName": "VizbeeCardsKit.VZBCardID<VizbeeKit.VZBPairingCardViewModel>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VZBPairingCardViewModel",
+                        "printedName": "VizbeeKit.VZBPairingCardViewModel",
+                        "usr": "c:objc(cs)VZBPairingCardViewModel"
+                      }
+                    ],
+                    "usr": "s:14VizbeeCardsKit9VZBCardIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VizbeeCardsKit9VZBCardIDVAASo23VZBPairingCardViewModelCRszrlE7pairingACyAEGvgZ",
+                "mangledName": "$s14VizbeeCardsKit9VZBCardIDVAASo23VZBPairingCardViewModelCRszrlE7pairingACyAEGvgZ",
+                "moduleName": "VizbeeCardsKit",
+                "genericSig": "<τ_0_0 where τ_0_0 == VizbeeKit.VZBPairingCardViewModel>",
+                "sugared_genericSig": "<ViewModel where ViewModel == VizbeeKit.VZBPairingCardViewModel>",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14VizbeeCardsKit9VZBCardIDV",
+        "mangledName": "$s14VizbeeCardsKit9VZBCardIDV",
+        "moduleName": "VizbeeCardsKit",
+        "genericSig": "<τ_0_0 where τ_0_0 : VizbeeKit.VZBCardViewModel>",
+        "sugared_genericSig": "<ViewModel where ViewModel : VizbeeKit.VZBCardViewModel>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VizbeeKit",
+        "printedName": "VizbeeKit",
+        "declKind": "Import",
+        "moduleName": "VizbeeCardsKit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBCloseButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 643,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBCloseButton.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 13,
+      "value": "\"closeButton\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBCloseButton.swift",
+      "kind": "Array",
+      "offset": 723,
+      "length": 15,
+      "value": "[\"CloseButton\"]"
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBDeviceInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 615,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBDeviceInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 657,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBDeviceInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 16,
+      "value": "\"deviceInfoView\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBDeviceInfoView.swift",
+      "kind": "Array",
+      "offset": 740,
+      "length": 18,
+      "value": "[\"DeviceInfoView\"]"
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBDeviceInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 12,
+      "value": "\"deviceIcon\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBDeviceInfoView.swift",
+      "kind": "Array",
+      "offset": 843,
+      "length": 23,
+      "value": "[\"DeviceIconImageView\"]"
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 11,
+      "value": "\"imageView\""
+    },
+    {
+      "filePath": "\/Users\/sidharthdatta\/Documents\/vizbee\/continuity-ios\/VizbeeKit\/VizbeeCards\/sources\/components\/VZBImageView.swift",
+      "kind": "Array",
+      "offset": 585,
+      "length": 13,
+      "value": "[\"ImageView\"]"
+    }
+  ]
+}

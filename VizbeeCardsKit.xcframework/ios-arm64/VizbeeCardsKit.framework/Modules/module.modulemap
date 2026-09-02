@@ -1,0 +1,6 @@
+framework module VizbeeCardsKit {
+  umbrella header "VizbeeCardsKit.h"
+  export *
+
+  module * { export * }
+}
